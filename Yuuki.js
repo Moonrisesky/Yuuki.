@@ -5,7 +5,6 @@ const bot = new discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is ready for action!`);
-  bot.user.setActivity("Minekwaft")
 });
 
 bot.on("message", async message => {
